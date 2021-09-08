@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day03-1 Box_model</title>
+    <style>
+        dt{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS3_Flexbox로 레이아웃 만들기</h1>
+    <!-- images -->
+    <h2>Flexbox(flexible box)의 container box 속성: 모든 아이템에 동일하게 적용되는 속성</h2>
+    <dl>
+        <dt>display:flex;</dt>
+        <dd>flexible 레이아웃을 만들기 위해 가장 먼저 설정. 아이템이 가로 방향으로 배치되며 크기는 내용의 너비와 높이만큼 설정.</dd>
+        <dt>flex-direction: column;</dt>
+        <dd>위에서 배치된 가로방향 (기본값 row)을 세로방향으로 바꾸어 준다. 이것을 메인 축이라고 한다.</dd>
+        <dt>flex-wrap: wrap;</dt>
+        <dd>컨테이너 크기가 아이템들을 모두 담을 수 없게 작아졌을 때 줄바꿈을 한다. 기본값은 nowrap</dd>
+        <dt>flex-flow: row wrap;</dt>
+        <dd>위의 2개 속성을 한번에 지정하는 단축 속성.</dd>
+        <dt>justify-content: center;</dt>
+        <dd>메인축으로 정렬되는 방법을 설정. 아이템들을 가운데로 정렬. 기본값은 flex-start이고 여러가지 방법이 존재.</dd>
+        <dt>align-items: center;</dt>
+        <dd>메인의 반대 축(수직축)으로 정렬되는 방법. 수직 축으로 가운데 정렬. 기본값은 stretch. 기본값외에는 아이템의 박스 크기로 변경.</dd>
+        <dt>align-content: flex-start;</dt>
+        <dd>flex-wrap: wrap; 으로 설정되었을 때 반대 축(수직축) 정렬방법. 기본값은 stretch</dd>
+
+    <h2>Flexbox(flexible box)의 item box 속성: 아이템마다 다르게 줄 수 있는 속성</h2>
+        <dt>flex-basis: 100px</dt>    
+        <dd>아이템들을 </dd>
+    </dl>
+    
+</body>
+</html>
