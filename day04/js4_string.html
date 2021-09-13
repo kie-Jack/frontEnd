@@ -6,41 +6,8 @@
 </head>
 <body>
     <!-- 문자열 메소드 -->
-    <script>
-    let text="I am Javascript sam.";
-    
-    document.write('문자열 길이 :' + text.length);  //length는 속성, ()가 있는 것은 메소드 입니다.
-    document.write('<br>');
-    
-    document.write('단어 위치찾기:' + text.indexOf('am'));
-    document.write('<br>');
-    
-    document.write('단어 위치찾기:' + text.lastIndexOf('am'));
-    document.write('<br>');
-    
-    let result = text.substring(7,11);  //11은 포함 안됨.
-    
-    document.write('문자열 추출 1 : ' + result);
-    document.write('문자열 추출 2 : ' + text.slice(7,11));
-    document.write('<br>');
-    
-    result = text.replace('javascript','jsp');  //대소문자구분해서 일치하는 것을 변환.
-    
-    let x = "John";                 //String 타입
-    let y = new String ("John");    //객체생성
-    let z = new String ("John");    //
-
-    document.write(typeof x);
-    document.write('<br>');         //string
-    document.write(typeof y);
-    document.write('<br>');         //object
-    document.write(typeof z);
-    document.write('<br>');         //object
-    
-    document.write("x,y 동등 비교 : " + (x==y) + "<br>");      //타입은 다르지만 문자열이 같으므로 true
-    document.write("x,y 일치 비교 : " + (x===y) + "<br>");      //타입이 다르므로 false
-    document.write("y,z 동등 비교 : " + (y==z) + "<br>");       //각각의 new 연산으로 만들어진 객체는 비교할 수 없다. false
-    document.write("y,z 일치 비교 : " + (y===z) + "<br>");      //          위와 같음.
+    <script src="ex4.js">
+        
     </script>
 </body>
 </html>
